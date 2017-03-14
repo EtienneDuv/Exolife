@@ -1,14 +1,13 @@
-//function Seuillage=readpbm(filename)  
-
+function Seuillage=readpbm(filename)  
 //1. load
-filename = "C:\Users\Adalon\Desktop\Prosit\Projet Exolife\Git\Images sources\Earth.pbm"
-img_in = readpbm(filename)
+//filename = "C:\Users\Adalon\Desktop\Prosit\Projet Exolife\Git\Images sources\Earth.pbm";
+img_in = readpbm(filename);
 
 //2. Initialisation
 sizeX= size(img_in, 1);
 sizeY= size(img_in, 2);
 img_out = zeros(sizeX, sizeY);
-S = input("Entrer le SEUIL :");
+S = input("===== Entrez le SEUIL =====  ");
 
 
 //3. for loop
@@ -26,5 +25,6 @@ display_gray(img_out);
 
 //5. save
 writepbm (img_out, "C:\Users\Adalon\Desktop\Prosit\Projet Exolife\Git\Workspace\Seuillage TRAITE.pbm");     // DESTINATION SORTIE
+
 
 //endfunction
