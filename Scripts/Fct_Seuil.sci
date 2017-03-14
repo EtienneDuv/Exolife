@@ -1,4 +1,4 @@
-function Seuillage=readpbm(filename)  
+function Fct_seuil=readpbm(filename)  
 //1. load
 //filename = "C:\Users\Adalon\Desktop\Prosit\Projet Exolife\Git\Images sources\Earth.pbm";
 img_in = readpbm(filename);
