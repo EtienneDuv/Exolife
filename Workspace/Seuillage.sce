@@ -1,5 +1,5 @@
 //1. load
-path = "C:\Users\Adalon\Desktop\Prosit\Projet Exolife\Git\Images sources\Earth.pbm";
+path = "C:\Users\Adalon\Desktop\Prosit\Projet Exolife\Git\Images sources\Encelade_surface.pbm";
 img_in = readpbm(path);
 
 //2. Initialisation
@@ -10,7 +10,7 @@ img_out = zeros(sizeX, sizeY);
 //3. for loop
 for i = 1:sizeX
     for j= 1:sizeY
-        if img_in(i, j) < 127 then 
+        if img_in(i, j) < 130 then 
             img_out(i, j) = 0;
         else img_out(i, j) = 255;
         end,            
