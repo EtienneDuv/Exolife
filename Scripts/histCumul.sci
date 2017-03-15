@@ -1,4 +1,4 @@
-function histCumul_out = histoCumul(img_in);
+function histCumul_out = histCumul(img_in);
     
 //1.création d'un tableau
 //hist = zeros(256,1);
