@@ -13,7 +13,13 @@ img_in=readpbm(path);//1.load une image
 //display_gray(image_out);
 
 //3.éxécution du script Histogramme cumulé
-histCumul_out = histCumul(img_in);
+//histCumul_out = histCumul(img_in);
+
+//4.Egalisation
+//histCumul_in = histCumul(img_in);
+//figure;
+//img_out = egalisation(img_in, histCumul_in);
+//display_gray(img_out);
 
 //display_gray(histCumul_out);
 
