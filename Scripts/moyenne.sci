@@ -12,7 +12,7 @@ cumul = histogramme(img_in);
 for i = 1:256
     somme = somme + (cumul(i)*i-1);
 end
-moyenne = round((somme / (sizeX*sizeY))/255*100);
+moyenne_out = round((somme / (sizeX*sizeY))/255*100);
 
 
 
