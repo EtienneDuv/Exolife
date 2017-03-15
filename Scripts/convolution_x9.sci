@@ -1,7 +1,7 @@
-function img_out = Convolution9(filename)
+function img_out = Convolution9(matrice)
 
 //1.Load image
-img_in = readpbm(filename);
+img_in = readpbm(matrice);
 
 ///2.création d'un tableau
 sizeX= size(img_in, 1);
