@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 //1.Charger l'image
@@ -8,11 +9,17 @@
 function hist_out = histogramme(img_in)  ;
 //2.création d'un tableau
 hist_out = zeros(256,1);
+=======
+function histogramme(img_in)  ;
+
+//1.création d'un tableau
+hist = zeros(256,1);
+>>>>>>> origin/master
 
 sizeX= size(img_in, 1);
 sizeY= size(img_in, 2);
 
-//3.boucle for 
+//2.boucle for 
 for i = 1:sizeX
     for j= 1:sizeY
         pixelValue = round (img_in(i,j));
@@ -21,6 +28,11 @@ for i = 1:sizeX
 end
 
 figure;
+<<<<<<< HEAD
 plot(hist_out);
 
 endfunction;
+=======
+plot(hist);
+endfunction
+>>>>>>> origin/master

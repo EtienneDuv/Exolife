@@ -1,4 +1,4 @@
-function Fct_seuil(filename)  
+function img_out = Fct_seuil(filename)  
 //1. load
 //filename = "C:\Users\Adalon\Desktop\Prosit\Projet Exolife\Git\Images sources\Earth.pbm";
 img_in = readpbm(filename);
@@ -22,9 +22,6 @@ end
 
 //4. Display
 display_gray(img_out);
-
-//5. save
-writepbm (img_out, "C:\Users\Adalon\Desktop\Prosit\Projet Exolife\Git\Workspace\Seuillage TRAITE.pbm");     // DESTINATION SORTIE
 
 
 endfunction
