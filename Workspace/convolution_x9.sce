@@ -1,14 +1,14 @@
-path = "C:\Users\Adalon\Desktop\Prosit\Projet Exolife\Git\Images sources\Gliese 581d.pbm";
+function img_out = Convolution9(filename)
 
-
+//1.Load image
 img_in = readpbm(path);
 
-//1.création d'un tableau
+///2.création d'un tableau
 sizeX= size(img_in, 1);
 sizeY= size(img_in, 2);
 img_out = zeros(sizeX, sizeY);
 
-//2.boucle for 
+//3.boucle for 
 for i = 2:(sizeX-1)
     for j= 2:(sizeY-1)
         //SOMME VALEURS AUTOUR DU CENTRE DU FILTRE
@@ -20,5 +20,7 @@ for i = 2:(sizeX-1)
     end        
 end
 
-//3. Display
+//4. Display
 display_gray(img_out);
+
+endfunction
