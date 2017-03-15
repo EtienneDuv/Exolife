@@ -22,4 +22,4 @@ end
 
 figure;
 plot(hist);
-end function;
+endfunction;
