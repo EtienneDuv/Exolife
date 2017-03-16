@@ -1,7 +1,6 @@
 
 
 function image_out = normalisation (matrice, n_min, n_max)
-    
     sizeX = size(matrice, 1);
     sizeY = size(matrice, 2);
     image_out = zeros(sizeX,sizeY);
