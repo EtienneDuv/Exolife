@@ -1,5 +1,5 @@
 //1. load
-path = "C:\Users\Adalon\Desktop\Prosit\Projet Exolife\Git\Images sources\Encelade_surface.pbm";
+path = "C:\Users\alexis\Documents\GitHub\Exolife_2017\Images sources\missionA1\Encelade.pbm";
 img_in = readpbm(path);
 
 //2. Initialisation
