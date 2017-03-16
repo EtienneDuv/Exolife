@@ -2,7 +2,7 @@
 
 //
 //1.load une image
-path = "C:\Users\antoi\OneDrive\Documents\Exia\Exolife_2017\Images sources\Earth.pbm"
+path = "C:\Users\antoi\OneDrive\Documents\Exia\Exolife_2017\Images sources\missionTest\Earth.pbm"
 img_in=readpbm(path);
 //Write
 //writepbm (img_in,"C:\Users\antoi\OneDrive\Documents\Exia\Exolife_2017\Workspace\Earth_Mission_Test.pbm");
@@ -85,6 +85,14 @@ img_in=readpbm(path);
 //figure;
 //display_gray(img_out);
 
+//
+//11.TransformeDeFourier
+img_out = transformeDeFourier(img_in);
+hist_out = histogramme(img_out);
+//plot(hist_out);
+//display_gray(img_in);
+//figure;
+//display_gray(img_out);
 
 
 

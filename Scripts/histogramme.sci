@@ -1,5 +1,5 @@
 //1.Charger l'image
-//img_in=readpbm("C:\Users\antoi\OneDrive\Documents\Exia\Exolife_2017\Images sources\Gliese 667Cc_surface.pbm");
+//img_in=readpbm("C:\Users\antoi\OneDrive\Documents\Exia\Exolife_2017\Images sources\missionTest\Earth.pbm");
 //2.Création de L'histogramme
 //histo = histplot();
 
