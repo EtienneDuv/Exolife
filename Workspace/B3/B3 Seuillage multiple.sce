@@ -13,9 +13,9 @@ for i = 1:sizeX
         if img_in(i, j) < 64 then 
             img_out(i, j) = 0;
         elseif img_in(i, j) < 128 then
-                img_out(i,j) = 85;
+                img_out(i,j) = 70;
         elseif img_in(i, j) < 192 then
-                img_out(i,j) = 170;
+                img_out(i,j) = 120;
         else 
                 img_out(i, j) = 255;
         end,            
