@@ -3,12 +3,10 @@ path = "Mission-B-1\Image\gliese.pbm";
 img_in = readpbm(path);
 
 //2. génération de l'histogramme
-hist = histogramme(img_in);
-n_min = min_hist(hist);
-n_max = max_hist(hist);
+cumul = histCumul(img_in);
 
 //3. Normalisation
-img_out = normalisation(img_in, n_min, n_max);
+img_out = egalisation(img_in, cumul);
 
 //4. Affichage de l'image finale
 figure;
