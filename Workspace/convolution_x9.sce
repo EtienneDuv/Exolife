@@ -1,7 +1,7 @@
-function img_out = Convolution9(filename)
+//function img_out = Convolution9(filename)
 
 //1.Load image
-img_in = readpbm(path);
+img_in = readpbm("C:\Users\Adalon\Desktop\Prosit\Projet Exolife\Git\Images sources\Earth.pbm");
 
 ///2.création d'un tableau
 sizeX= size(img_in, 1);
@@ -23,4 +23,4 @@ end
 //4. Display
 display_gray(img_out);
 
-endfunction
+//endfunction
