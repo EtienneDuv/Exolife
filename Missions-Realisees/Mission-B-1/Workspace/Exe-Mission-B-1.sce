@@ -16,3 +16,4 @@ display_gray (img_out);
 
 //5. Sauvegarde
 writepbm (img_out, "Mission-B-1\Image\Atmosphère.pbm");
+    
