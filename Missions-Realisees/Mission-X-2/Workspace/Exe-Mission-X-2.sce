@@ -10,4 +10,4 @@ figure;
 display_gray(img_out);
 
 //4. Sauvegarde
-writepbm(img_out, "Vegetation.pbm");
+writepbm(img_out, "Mission-X-2\Image\Vegetation.pbm");
