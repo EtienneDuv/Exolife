@@ -77,18 +77,18 @@ img_in=readpbm(path);
 
 //
 //10. filtreMedian
-//path2 = "C:\Users\antoi\OneDrive\Documents\Exia\Exolife_2017\Images sources\A4A.pbm"
-//img_in2=readpbm(path2);
-//img_out = filtreMedian(img_in2);
-//figure;
-//display_gray(img_in2);
-//figure;
-//display_gray(img_out);
+path2 = "C:\Users\antoi\OneDrive\Documents\Exia\Exolife_2017\Images sources\missionA4\jupiter1.pbm"
+img_in2=readpbm(path2);
+img_out = filtreMedian(img_in2);
+figure;
+display_gray(img_in2);
+figure;
+display_gray(img_out);
 
 //
 //11.TransformeDeFourier
-img_out = transformeDeFourier(img_in);
-hist_out = histogramme(img_out);
+//img_out = transformeDeFourier(img_in);
+//hist_out = histogramme(img_out);
 //plot(hist_out);
 //display_gray(img_in);
 //figure;

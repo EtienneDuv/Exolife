@@ -8,14 +8,6 @@ histCumul_out = zeros(256,1)
 sizeX= size(img_in, 1);
 sizeY= size(img_in, 2);
 
-//2.boucle for - Histogramme
-//for i = 1:sizeX
-//    for j= 1:sizeY
-//        pixelValue = img_in(i,j);
-//        hist(pixelValue+1) = hist(pixelValue+1) +1;
-//    end        
-//end
-
 //3. Boucle for - Hustogramme cumulé
 
 histCumul_out(1,1) = hist (1,1);
