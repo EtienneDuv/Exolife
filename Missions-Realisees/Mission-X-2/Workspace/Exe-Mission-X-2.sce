@@ -3,7 +3,7 @@ path = "Mission-X-2\Image\Gliese.pbm";
 img_in = readpbm(path);
 
 //2. Création d'image
-img_out = Filtrage(img_in)
+img_out = filtreMedian(img_in)
 
 //3. Affichage
 figure;
