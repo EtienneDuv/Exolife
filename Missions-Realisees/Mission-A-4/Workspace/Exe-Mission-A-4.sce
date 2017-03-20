@@ -1,5 +1,6 @@
 
 //1. load
+getd  ("Mission-A-4\Script");
 path = "Mission-A-4\Image\jupiter2.pbm";
 img_in = readpbm(path);
 

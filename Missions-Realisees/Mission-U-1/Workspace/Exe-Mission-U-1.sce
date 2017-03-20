@@ -1,4 +1,5 @@
 //1. load
+getd  ("Mission-U-1\Script");
 path = "Mission-U-1\Image\U1_surface.pbm";
 img_in = readpbm(path);
 

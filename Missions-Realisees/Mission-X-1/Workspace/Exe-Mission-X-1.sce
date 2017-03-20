@@ -1,12 +1,8 @@
 
-//1. load
-//path = "Mission-X-1\Image\Asellus.dat";
-//img_in = readpbm(path);
-
-//2. Utilisation de la fonction inversée de transformé de fourrier
-
-    load("Mission-X-1\Image\Asellus.dat");
-    img_out = ifft(imgT);
+//1. Utilisation de la fonction inversée de transformé de fourrier
+getd  ("Mission-X-1\Script");
+load("Mission-X-1\Image\Asellus.dat");
+img_out = ifft(imgT);
     
 //4. Display gray
 figure;

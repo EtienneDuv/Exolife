@@ -1,4 +1,5 @@
 //1. Initialisation
+getd  ("Mission-B-1\Script");
 path = "Mission-B-1\Image\gliese.pbm";
 img_in = readpbm(path);
 

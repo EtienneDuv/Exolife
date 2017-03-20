@@ -1,4 +1,5 @@
 //1. Initialisation
+getd  ("Mission-B-3\Script");
 path = "Mission-B-3\Image\HD215497.pbm";
 img_in = readpbm(path);
 

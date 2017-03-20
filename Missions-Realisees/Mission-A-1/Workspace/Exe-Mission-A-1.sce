@@ -1,6 +1,7 @@
 getd "Mission-A-1\Script"
 
 //1. load
+getd  ("Mission-A-1\Script");
 path = "Mission-A-1\Image\encelade.pbm";
 img_in = readpbm(path);
 
